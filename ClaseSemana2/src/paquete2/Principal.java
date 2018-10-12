@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicio2;
-
-import ClaseSemana2.*;
+package paquete2;
 
 /**
  *
@@ -18,9 +16,9 @@ public class Principal {
      */
     public static void main(String[] args) {
         Precio p = new Precio();//creo un objeto de clase Precio
-        System.out.println(p.euros);//imprimo el atributo euros de p
-        p.euros = 10.1;//agrego un valor al atributo euros de p
-        System.out.println(p.euros);//imprimo los cambios en euros
+        
+        p.set(20.2);//utilizo 
+        System.out.println(p.get());
     }
     
 }
